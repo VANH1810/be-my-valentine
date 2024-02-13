@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
+  titleElement.innerHTML = "Yeeee !! Yêu vợ iu Phương Linh nhìu lắmmm.";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -43,11 +43,11 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "Are you sure?",
-    "Pookie please",
-    "Don't do this to me :(",
-    "You're breaking my heart",
-    "I'm gonna cry...",
+    "Em chắc chắn chưa?",
+    "Suy nghĩ lại đi mò",
+    "Dỗi bây giờ !!!",
+    "Sao baby lỡ làm thế",
+    "Khóc ròi huhu",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
