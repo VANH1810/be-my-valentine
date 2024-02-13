@@ -6,7 +6,7 @@ const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
 
-const MAX_IMAGES = 5;
+const MAX_IMAGES = 6;
 
 let play = true;
 let noCount = 0;
@@ -46,8 +46,8 @@ function generateMessage(noCount) {
     "Em chắc chắn chưa?",
     "Suy nghĩ lại đi mò",
     "Dỗi bây giờ !!!",
-    "Sao baby lỡ làm thế",
     "Khóc ròi huhu",
+    "Tan nát trái tim",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);

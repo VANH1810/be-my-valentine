@@ -31,7 +31,7 @@ body {
 
 .title {
   font-size: 3.6rem;
-  color: #f53699;
+  color: #b31165;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -58,11 +58,11 @@ body {
 }
 
 .btn--yes {
-  background-color: #40c057;
+  background-color: #27d146;
 }
 
 .btn--no {
-  background-color: #f03e3e;
+  background-color: #d21a1a;
 }
 
 .hidden {
